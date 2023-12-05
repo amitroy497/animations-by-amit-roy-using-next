@@ -1,0 +1,30 @@
+.ball1 {
+	animation: moving20 2s linear infinite alternate-reverse;
+}
+
+.ball2 {
+	animation: bigger20 2s linear infinite alternate-reverse;
+}
+
+@keyframes moving20 {
+	0% {
+		left: 30px;
+	}
+	100% {
+		left: 270px;
+	}
+}
+
+@keyframes bigger20 {
+	100%,
+	90% {
+		transform: translateX(-50%) scale(1);
+	}
+	20%,
+	80% {
+		transform: translateX(-50%) scale(1.05);
+	}
+	50% {
+		transform: translateX(-50%) scale(1.06);
+	}
+}
