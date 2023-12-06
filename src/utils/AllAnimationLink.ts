@@ -125,11 +125,11 @@ export const allAnimationLinks = {
 			href: '/animation25',
 			title: 'Random Background Color Animation',
 		},
-		// {
-		// 	id: '26',
-		// 	href: '/animation26',
-		// 	title: 'Random Background Color Animation',
-		// },
+		{
+			id: '26',
+			href: '/animation26',
+			title: '3D Card Hover Effects',
+		},
 		// {
 		// 	id: '27',
 		// 	href: '/animation27',
